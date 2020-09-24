@@ -1,5 +1,6 @@
 body {
   margin: 10px 50px;
+  background-color: #eee;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -19,4 +20,41 @@ button {
   color: #fff;
   background-color: #333333;
   cursor: pointer;
+}
+
+#slack {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  width: 160px;
+  padding: 20px 20px;
+  background-color: #490d4c;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.user-profile div img {
+  border-radius: 5px;
+}
+
+.user-profile .user-name {
+  position: relative;
+  top: -3px;
+  margin-left: 10px;
+}
+
+#MainContainer {
+  width: 800px;
+  background-color: #fff;
+  padding: 20px 30px;
 }

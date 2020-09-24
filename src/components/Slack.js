@@ -5,7 +5,7 @@ import MainContainer from './MainContainer';
 class Slack extends Component {
   render() {
     return (
-      <div>
+      <div id="slack">
         <Sidebar />
         <MainContainer />
       </div>
