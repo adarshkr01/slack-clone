@@ -5,8 +5,8 @@ class Sidebar extends Component {
     return (
       <div id="sidebar">
         <div className="user-profile">
-          <div>
-            <img src="https://via.placeholder.com/30" />
+          <div id="user-img">
+            <img src="https://www.gravatar.com/avatar/ae903df127f469f432ba627b9504ce02" />
           </div>
           <div className="user-name">Ronald</div>
         </div>
